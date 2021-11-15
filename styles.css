@@ -1,0 +1,17 @@
+
+.nav-item {
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.navbar-light {
+    background-color: #8BFFFF;
+}
+
+.text-center {
+    margin-top: 40vh;
+}
