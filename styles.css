@@ -1,7 +1,16 @@
+body {
+    background-color: #F7F7F7;
+}
 
 .nav-item {
     padding-left: 2.5vw;
     padding-right: 2.5vw;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Poppins';
+    font-weight: 400;
+    color : white;
 }
 
 .navbar-collapse {
@@ -9,9 +18,85 @@
 }
 
 .navbar-light {
-    background-color: #8BFFFF;
+    background-color: #FF7800;
+}
+
+.navbar-brand {
+    padding-left: 3vw;
 }
 
 .text-center {
-    margin-top: 40vh;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
+
+.quote {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 23px;
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+}
+
+.btn-lg {
+    border-radius: 20px;
+}
+
+.heading {
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 52px;
+    text-align: center;
+    padding-bottom: 7vh;
+    padding-top: 5vh;
+}
+
+.image-fluid {
+    width: 225px;
+    height: 225px;
+    border-radius: 500px;
+    opacity: 0.8;
+}
+
+.intro {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.col-sm {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 375px) {
+    .heading {
+        padding-bottom: 20px;
+        font-size: 32px;
+    }
+
+    .intro {
+        padding-top: 50px;
+        font-size: 16px;
+    }
+
+    .quote {
+        margin-bottom: 50px;
+        font-size: 18px;
+    }
+
+    .text-center {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+}
+
+/* https://rzp.io/l/xJO0WG5 */
